@@ -1,1 +1,42 @@
-/* Add CSS styling here */
+*{
+    background-color: chartreuse;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.topone img {
+    width: 50%;
+    height: auto;
+  }
+
+  .toptwo{
+      text-align: center;
+  }
+
+  .middle{
+      display: flex;
+      flex-basis: auto;
+      justify-content: space-evenly;
+  }
+
+  .middle img{
+    width: 25%;
+    height: auto;
+  }
+
+  footer{
+      text-align: center;
+  }
+
+  button{
+      padding: 10px;
+  }
