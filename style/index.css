@@ -1,1 +1,122 @@
-/* Add CSS styling here */
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background: gray;
+}
+
+.top{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.topone{
+    width: 50%;
+}
+
+.topone img {
+    width: 100%;
+    height: auto;
+  }
+
+.toptwo{
+      width: 50%;
+      text-align: center;
+  }
+
+  .middle{
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      width: 100%;
+      justify-content: space-evenly;
+  }
+
+  .middle img{
+    width: 100%;
+    height: auto;
+
+  }
+
+  .midone{
+      width: 23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .midtwo{
+      width: 23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .midthree{
+      width:23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .midfour{
+      width:23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .midfive{
+      width: 23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .midsix{
+      width: 23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .midseven{
+      width:23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  .mideight{
+      width: 23%;
+      text-align: center;
+      padding: 1%;
+  }
+
+  footer{
+      text-align: center;
+      background: gray;
+      padding: 2%;
+  }
+
+  button{
+      padding: 10px;
+  }
+
+  nav{
+      background: gray;
+      padding: 2%
+  }
+
+  h1{
+      background: gray;
+  }
+
+  h3{
+      background: gray;
+  }
+
+  @media(max-width:800px){
+  }
+
+  @media(max-width:500px){
+      
+  }
